@@ -1,5 +1,24 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home">
+    <div class="container">
+      <div class="active-content">
+				<div class="col-6">
+					<h1>About</h1>
+			
+				</div>
+      </div>
+      <div class="result-content">
+        
+      </div>
+    </div>
   </div>
 </template>
+
+<script>
+
+export default {
+  name: 'Home',
+  components: {
+  }
+}
+</script>
